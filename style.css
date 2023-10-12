@@ -1,0 +1,68 @@
+/* Establece el ancho y alto de las imágenes */
+.boton img {
+    width: 24px; /* Ancho deseado */
+    height: 24px; /* Alto deseado */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    vertical-align: middle; /* Alinea verticalmente la imagen y el texto */
+}
+
+h1, p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #3c91e6, #2a2b2e);
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+}
+
+.svg {
+    width: 130px;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+h1, p, .boton-container {
+    text-align: center;
+}
+
+.boton-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.boton {
+    color: white;
+    background: #0077b5; /* Fondo del botón */
+    padding: 10px 40px; /* Ajusta el espaciado */
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton img {
+    width: 24px; /* Ancho de la imagen */
+    height: 24px; /* Alto de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    vertical-align: middle; /* Alinea verticalmente la imagen y el texto */
+}
+
+.boton:hover {
+    background-color: #005a99; /* Cambia el color de fondo al pasar el cursor (más intenso) */
+    color: white; /* Cambia el color del texto al pasar el cursor */
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
