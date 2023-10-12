@@ -1,4 +1,4 @@
-# imnotmalek.github.io
+# astroversesociety.github.io
 # Astroverse Society
 
 Bienvenido a Astroverse Society, tu portal para explorar el cosmos y unirte a nuestra comunidad en línea.
